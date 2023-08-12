@@ -3,6 +3,10 @@ const { listen } = window.__TAURI__.event;
 
 let logEl;
 
+listen('tauri://update-status', function (res) {
+    console.log(res);
+});
+
 async function launch() {
     logEl = document.querySelector("#launcher-log");
     await listen("launcher-log", (e) => {
