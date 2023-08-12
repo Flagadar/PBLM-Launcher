@@ -13,6 +13,10 @@ const JEI: &str = "https://cdn.modrinth.com/data/u6dRKJwZ/versions/8y6r09NZ/jei-
 const LAZY_DFU: &str = "https://cdn.modrinth.com/data/hvFnDODi/versions/0.1.3/lazydfu-0.1.3.jar";
 const FERRITE_CORE: &str = "https://cdn.modrinth.com/data/uXXizFIs/versions/kwjHqfz7/ferritecore-5.0.3-fabric.jar";
 const CLUMPS: &str = "https://cdn.modrinth.com/data/Wnxd13zP/versions/3GURrv52/Clumps-forge-1.19.2-9.0.0%2B14.jar";
+const CC: &str = "https://cdn.modrinth.com/data/gu7yAYhd/versions/pCQZNkje/cc-tweaked-1.19.2-1.101.3.jar";
+const NUMISMATIC: &str = "https://cdn.modrinth.com/data/ZXm8hVxN/versions/kNLvUZhD/numismatic-overhaul-0.2.9%2B1.19.jar";
+const OWO: &str = "https://cdn.modrinth.com/data/ccKDOlHs/versions/yGLYmVnT/owo-lib-0.9.3%2B1.19.jar";
+const MOD_MENU: &str = "https://cdn.modrinth.com/data/mOgUt4GM/versions/gSoPJyVn/modmenu-4.2.0-beta.2.jar";
 //const DASH_LOADER: &str = "https://cdn.modrinth.com/data/ZfQ3kTvR/versions/DsPMHgmj/dashloader-4.1.3%2B1.19.jar";
 
 pub fn get_mod_list() -> Vec<String> {
@@ -32,6 +36,10 @@ pub fn get_mod_list() -> Vec<String> {
         LAZY_DFU.into(),
         FERRITE_CORE.into(),
         CLUMPS.into(),
+        CC.into(),
+        NUMISMATIC.into(),
+        OWO.into(),
+        MOD_MENU.into(),
         //DASH_LOADER.into(),
     ];
 
